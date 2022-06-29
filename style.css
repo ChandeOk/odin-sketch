@@ -18,11 +18,10 @@
   border: 1px solid black;
 }
 
-button {
-  cursor: pointer;
+.number-squares {
   position: absolute;
-  height: 100px;
-  width: 200px;
+  height: 150px;
+  width: 300px;
   top: 10%;
   left: 15%;
   background: none;
@@ -30,4 +29,10 @@ button {
   border-radius: 8px;
   font-size: 18px;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
 }
